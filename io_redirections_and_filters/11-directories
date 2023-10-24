@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -name '.*'|tale -n +2|wc -l
+find . -type d|find . -type -name '.*'|tale -n +2|wc -l
